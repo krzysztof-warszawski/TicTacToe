@@ -6,8 +6,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-//import static game.Main.gameFrame;
-//import static game.Main.nickNameFrame;
+import static game.Main.startFrame;
 
 public class NickNamePanel extends JPanel {
 
@@ -28,27 +27,27 @@ public class NickNamePanel extends JPanel {
         }
         playGame = new JButton();
         playGame.setIcon(icon);
-        playGame.setBounds(235,520,icon.getIconWidth(),icon.getIconHeight());
+        playGame.setBounds(245,520,icon.getIconWidth(),icon.getIconHeight());
         playGame.setBorder(null);
         playGame.setContentAreaFilled(false);
         playGame.addActionListener(e -> {
-            Main.gameFrame.setVisible(true);
-            Main.nickNameFrame.setVisible(false);
-            Main.gameFrame.getGamePanel().getBoardPanel().getPlayerPanel().getPlayerX().setText(xNickName.getText());
-            Main.gameFrame.getGamePanel().getBoardPanel().getPlayerPanel().getPlayerO().setText(oNickName.getText());
+            GamePanel gamePanel = new GamePanel();
+            gamePanel.getBoardPanel().getPlayerPanel().getPlayerX().setText(xNickName.getText());
+            gamePanel.getBoardPanel().getPlayerPanel().getPlayerO().setText(oNickName.getText());
+            startFrame.panelSwitchOver(gamePanel);
         });
 
         nickName = new JLabel("ENTER YOUR NICKNAMES:");
         nickName.setFont(nickName.getFont().deriveFont(20f));
-        nickName.setBounds(170,5,600,45);
+        nickName.setBounds(180,5,600,45);
 
         xNickName = new JTextField("PLAYER X");
         xNickName.setHorizontalAlignment(JTextField.CENTER);
-        xNickName.setBounds(120,50,110,45);
+        xNickName.setBounds(130,50,110,45);
 
         oNickName = new JTextField("PLAYER O");
         oNickName.setHorizontalAlignment(JTextField.CENTER);
-        oNickName.setBounds(365,50,110,45);
+        oNickName.setBounds(375,50,110,45);
 
         add(oNickName);
         add(xNickName);
@@ -59,6 +58,6 @@ public class NickNamePanel extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(img, 75, 80, 450, 450, null);
+        g.drawImage(img, 85, 80, 450, 450, null);
     }
 }

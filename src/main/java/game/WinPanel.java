@@ -2,8 +2,8 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
-//import static game.Main.startFrame;
-//import static game.Main.winFrame;
+
+import static game.Main.startFrame;
 
 class WinPanel extends JPanel {
     private Image image;
@@ -16,8 +16,9 @@ class WinPanel extends JPanel {
         winMessage.setBounds(100, 210, 270, 40);
         winMessage.setFont(winMessage.getFont().deriveFont(20f));
         winMessage.addActionListener(e -> {
-            Main.winFrame.setVisible(false);
-            Main.startFrame.setVisible(true);
+            StartPanel startPanel = new StartPanel();
+            startFrame.setSize(620,745);
+            startFrame.panelSwitchOver(startPanel);
         });
         add(winMessage);
     }

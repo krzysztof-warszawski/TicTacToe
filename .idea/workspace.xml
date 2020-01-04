@@ -8,6 +8,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0d558afe-f8ff-4997-87aa-d12cf4e511e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/BoardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/BoardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/GameFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/NickNameFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/NickNamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/NickNamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/StartFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StartFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/StartPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StartPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/WinFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/WinPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/WinPanel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +47,7 @@
   <component name="ProjectId" id="1TtlpfXaobS8jtDwKbNPCGBgYT9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

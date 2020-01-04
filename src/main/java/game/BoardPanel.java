@@ -3,7 +3,8 @@ package game;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
-//import static game.Main.*;
+
+import static game.Main.startFrame;
 
 class BoardPanel extends JPanel {
 
@@ -199,16 +200,6 @@ class BoardPanel extends JPanel {
         }
     }
 
-    private void clearAllFields() {
-        resetAll();
-        playerPanel.setScoreX(0);
-        playerPanel.setScoreO(0);
-        roundPanel.setRoundCounter(1);
-        roundPanel.setNextRoundButtonVisible(false);
-        roundPanel.getRoundDisplay().setText("Round: " + roundPanel.getRoundCounter());
-        playerPanel.getScoreDisplay().setText("Score: " + playerPanel.getScoreX() + "-" + playerPanel.getScoreO());
-    }
-
     private void markField(boolean fieldName, JButton buttonName) {
         if (!fieldName) {
             if (x) {
@@ -278,11 +269,10 @@ class BoardPanel extends JPanel {
                 blockTheBoard();
             }
             if (playerPanel.getScoreX() == 3) {
-                Main.winFrame.getWinPanel().setWinMessage("The winner is " + playerPanel.getPlayerX().getText()); // sprawdzenie czy osiągnięto wynik 3, jesli tak to odkrycie winFrame
-                Main.startFrame.setVisible(false);
-                Main.gameFrame.setVisible(false);
-                Main.winFrame.setVisible(true);
-                clearAllFields();
+                WinPanel winPanel = new WinPanel();
+                winPanel.setWinMessage("The winner is " + playerPanel.getPlayerX().getText()); // sprawdzenie czy osiągnięto wynik 3, jesli tak to odkrycie winFrame
+                startFrame.setSize(480, 290);
+                startFrame.panelSwitchOver(winPanel);
             }
         } catch (NullPointerException e) {
             e.getMessage();
@@ -338,11 +328,10 @@ class BoardPanel extends JPanel {
             blockTheBoard();
         }
         if (playerPanel.getScoreO() == 3) { // sprawdzenie czy osiągnięto wynik 3, jesli tak to odkrycie winFrame
-            Main.winFrame.getWinPanel().setWinMessage("The winner is " + playerPanel.getPlayerO().getText());
-            Main.startFrame.setVisible(false);
-            Main.gameFrame.setVisible(false);
-            Main.winFrame.setVisible(true);
-            clearAllFields();
+            WinPanel winPanel = new WinPanel();
+            winPanel.setWinMessage("The winner is " + playerPanel.getPlayerO().getText());
+            startFrame.setSize(480, 290);
+            startFrame.panelSwitchOver(winPanel);
         }
     }
 
