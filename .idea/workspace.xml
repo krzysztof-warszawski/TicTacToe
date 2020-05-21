@@ -8,15 +8,35 @@
   <component name="ChangeListManager">
     <list default="true" id="0d558afe-f8ff-4997-87aa-d12cf4e511e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/BoardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/BoardPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/GameFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/NickNameFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/NickNamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/NickNamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/StartFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StartFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/StartPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StartPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/WinFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/WinPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/WinPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crossWinner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/frameIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/BoardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/GameFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/MusicClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/NickNameFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/NickNamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/PlayerPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/RoundPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/StartFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/StartPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/WinFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/WinPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/horizontalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lightBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nought.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noughtWinner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/verticalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/winner.gif" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +76,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/readme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +131,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
