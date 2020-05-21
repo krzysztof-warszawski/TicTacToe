@@ -9,10 +9,10 @@ Simple but very entertaining game with a music in the background.
 
 ![initialPanel](src/main/resources/readme/front panel.png)
 
-![initialPanel](src/main/resources/readme/names.png)
+![namesPanel](src/main/resources/readme/names.png)
 
-![initialPanel](src/main/resources/readme/board.png)
+![boardPanel](src/main/resources/readme/board.png)
 
-![initialPanel](src/main/resources/readme/game.png)
+![gamePanel](src/main/resources/readme/game.png)
 
-![initialPanel](src/main/resources/readme/winner.png)
+![winnerPanel](src/main/resources/readme/winner.png)
