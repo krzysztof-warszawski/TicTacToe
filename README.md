@@ -7,7 +7,9 @@ Simple but very entertaining game with a music in the background.
 
 ## GUI
 
-![front_panel](src/main/resources/readme/front_panel.png)
+<img src="https://github.com/krzysztof-warszawski/TicTacToe/blob/master/src/main/resources/readme/front_panel.png" width="500" height="500" />
+
+![front_panel|medium](src/main/resources/readme/front_panel.png)
 
 ![namesPanel](src/main/resources/readme/names.png)
 
