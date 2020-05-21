@@ -12,7 +12,7 @@ public class Main {
         EventQueue.invokeLater(() -> {
             // music
             game.MusicClass musicObject = new game.MusicClass();
-            
+
             startFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             startFrame.setVisible(true);
             musicObject.playMusic();
